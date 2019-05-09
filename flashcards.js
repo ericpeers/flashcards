@@ -76,7 +76,7 @@ for (i=startNum;i<=maxNum;i++) {
     answers.push(`${i} X ${j} = ${i*j}`);
   }
 }
-//push a couple empties onto the array to align to a multiple of 3.
+//push a couple empties onto the array to align to a multiple of 4 (2x2).
 for (i=0;i < (questions.length % 4); i++) {
   questions.push(' ');
   answers.push(' ');
